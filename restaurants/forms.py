@@ -4,4 +4,4 @@ from .models import Restaurant
 class RestaurantForm(forms.ModelForm):
     class Meta:
         model = Restaurant
-        feilds = "__all__"
+        fields = '__all__'

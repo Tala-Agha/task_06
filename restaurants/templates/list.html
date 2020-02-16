@@ -5,7 +5,7 @@
         <title>List</title>
     </head>
     <body>
-      <a href="{% url 'create' %}"></a>
+      <a href="{% url 'restaurant-create' %}">create</a>
         {% for restaurant in restaurants %}
             <a href="{% url 'restaurant-detail' restaurant.id %}">
                 <ul>
